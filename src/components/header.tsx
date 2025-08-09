@@ -8,7 +8,7 @@ export function Header() {
         <div className="mr-4 flex">
           <Link href="/" className="mr-6 flex items-center space-x-2">
             <ShieldCheck className="h-6 w-6 text-primary" />
-            <span className="font-bold sm:inline-block font-headline">
+            <span className="font-bold sm:inline-block">
               CBPHACKERS
             </span>
           </Link>
