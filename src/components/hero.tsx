@@ -8,7 +8,7 @@ export function Hero() {
     <section className="bg-card py-20 sm:py-28">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-4xl font-extrabold tracking-tight text-foreground sm:text-5xl lg:text-6xl font-headline">
+          <h1 className="text-4xl font-extrabold tracking-tight text-foreground sm:text-5xl lg:text-6xl">
             Expert Cryptocurrency Support When You Need It Most
           </h1>
           <p className="mt-6 text-lg leading-8 text-muted-foreground">
