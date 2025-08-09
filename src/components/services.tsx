@@ -24,7 +24,7 @@ export function Services() {
     <section id="services" className="py-12 sm:py-16 lg:py-20 bg-background">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-            <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl lg:text-5xl font-headline">
+            <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl lg:text-5xl">
               Our Services
             </h2>
             <p className="mt-4 text-lg text-muted-foreground">
@@ -36,7 +36,7 @@ export function Services() {
             <Card key={index} className="flex flex-col items-center text-center p-6 transform transition-all duration-300 hover:scale-105 hover:shadow-xl">
               <CardHeader className="items-center">
                 {service.icon}
-                <CardTitle className="mt-4 font-headline">{service.title}</CardTitle>
+                <CardTitle className="mt-4">{service.title}</CardTitle>
               </CardHeader>
               <CardDescription className="mt-2 text-base">
                 {service.description}
