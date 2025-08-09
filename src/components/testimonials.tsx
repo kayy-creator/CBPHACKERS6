@@ -39,7 +39,7 @@ export function Testimonials() {
     <section id="testimonials" className="py-12 sm:py-16 lg:py-20 bg-card">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-          <h2 className="text-3xl font-bold tracking-tight text-card-foreground sm:text-4xl lg:text-5xl font-headline">
+          <h2 className="text-3xl font-bold tracking-tight text-card-foreground sm:text-4xl lg:text-5xl">
             What Our Clients Say
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
@@ -66,7 +66,7 @@ export function Testimonials() {
                                 ))}
                             </div>
                           <p className="text-base text-muted-foreground italic">"{testimonial.comment}"</p>
-                          <span className="font-semibold text-foreground font-headline mt-auto pt-4">{testimonial.name}</span>
+                          <span className="font-semibold text-foreground mt-auto pt-4">{testimonial.name}</span>
                         </CardContent>
                       </Card>
                     </div>
